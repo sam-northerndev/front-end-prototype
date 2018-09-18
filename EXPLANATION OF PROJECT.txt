@@ -1,0 +1,3 @@
+This was a front end prototype that I created for the centre for water resource studies. It was designed using basic web development languages (HTML, CSS, JS) and Bootstrap.
+
+To view the project it must be hosted locally.

@@ -1,0 +1,251 @@
+html, body {
+	font-family: 'Roboto', sans-serif;
+}
+.container-fluid {
+	display: none;
+}
+
+.nav-link a {
+	color: black;
+}
+#landing-scroll {
+	display: none;
+}
+/* landing page image styling */
+
+.carousel-caption {
+	max-width: 100%;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#landing-text {
+	display: none;
+}
+
+.blur-div {
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+}
+
+#banner {
+	background: url("../images/banner.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+/* This is the start of the survay cards */
+
+.survey-card-header {
+	background-color: #0089b3;
+}
+
+a {
+	color: #646870;
+}
+/* Styling the search bar element */
+.search {
+	display: inline;
+	width: 200px;
+}
+.search[type=text] {
+	width: 50;
+	-webkit-transition:width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+.search[type=text]:focus {
+	width: 75%;
+}
+
+#search-bar {
+	height: auto;
+}
+
+/*eliminates the whitespace on the edges of showcase container*/
+.showcase-container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.img-landing {
+	-webkit-filter: brightness(60%);
+	filter: brightness(60%);
+}
+/* button option styling */
+
+
+	#option {
+		height: auto;
+		width: 200px;
+	}
+/*for the slide up and down menu button*/
+#menu-open {
+	display: hidden;
+}
+
+/*Give a uniform height to all card images */
+	#card-landing {
+		height: 550px;
+		margin-bottom: 20px;
+	}
+	.card-button {
+		background-color: #ffffff;
+	}
+	#card-image {
+		height: 350px;
+	}
+
+/* Centres the footer element*/
+#footerElement {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+/*----------font awesome styling-------------------*/
+#ocean-hover:hover {
+	color: #1C6BA0;
+
+}
+#large-icon {
+	margin-top: 10px;
+	height: 30px;
+	width: 30px;
+}
+
+/*Hidden survey element*/
+.survey-start {
+	display: none;
+}
+.survey-row {
+	margin-bottom: 200px;
+}
+.page-row {
+	margin-bottom: 200px;
+}
+.remove-padding-menu {
+	padding: 0px;
+}
+.remove-padding {
+	padding: 0px;
+}
+/*hidden form elements */
+.form-survey {
+	display: none;
+	padding-top: 20px;
+}
+.login-register-page {
+	margin-top: 15px;
+}
+#pageTitle {
+	font-size: 4.0vw;
+}
+/* Login styling */
+.login-page {
+	display: none;
+	margin-top: 20px;
+}
+.register-page {
+	display: none;
+	margin-top: 20px;
+}
+.return-button {
+	display: none;
+}
+/* Dashboard Styling */
+#dashMenu-mobile {
+	display: none;
+}
+.notif {
+	display: none;
+	margin-bottom: 20px;	
+}
+.button-wrap {
+	white-space: normal;
+}
+#yourInfo {
+	display: none;
+}
+
+
+/*-----------CARD RESPONSIVE--------------------------*/
+@media (max-width: 1115px) { 
+	#menu-form {
+		width: 450px;
+	}
+	#card-image {
+		height: 250px;
+	}
+	#card-landing {
+		height: 550px;
+		margin-bottom: 20px;
+}
+
+@media (max-width: 800px) { 
+	#menu-form {
+		width: 200px;
+	}
+	}
+
+#t1 {
+	font-size: 4.0vw;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand { 
+    	float: none;
+    	overflow: hidden;
+    }
+}
+
+@media (max-width: 500px) { 
+
+#t1 {
+	font-size: 4.0vw;
+}
+
+}
+@media (max-width: 750px) { 
+
+#t2 {
+	font-size: 6.0vw;
+}
+#t3 {
+	font-size: 5.0vw;
+}
+.login-text {
+	font-size: 1.0rem;
+}
+
+}
+
+@media (max-width: 575px) { 
+
+#menu {
+	margin-top: 20px;
+}	
+.remove-padding-menu {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.survey-row {
+	margin-bottom: 20px;
+}
+.page-row {
+	margin-bottom: 20px;
+}
+.login-page {
+	margin-top: 0px;
+}
+.register-page {
+	margin-top: 0px;
+}
+#dashMenu-desktop {
+	display: none;
+}
+#dashMenu-mobile {
+	display: inline;
+}
+
+}
